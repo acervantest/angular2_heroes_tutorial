@@ -1,13 +1,12 @@
-/* tslint:disable:no-unused-variable */
-
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { HeroDetailComponent } from './detail/hero-detail.component';
 
 describe('AppComponent', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent, HeroDetailComponent
       ],
     });
     TestBed.compileComponents();
